@@ -14,7 +14,7 @@ This Python script provides a simple interface to run **JAIS 13B** language mode
 
 - ROCm 6.4.2+
 - Python 3.10+
-- PyTorch 2.9.0 with ROCm support ()
+- PyTorch 2.9.0 with ROCm support (2.9.0.dev20250729+rocm6.4)
 - Transformers library
 - Hugging Face account and API token
 - Sufficient GPU memory (~24–32 GB VRAM recommended for 13B model)
