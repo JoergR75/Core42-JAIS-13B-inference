@@ -18,7 +18,7 @@ This Python script provides a simple interface to run **JAIS 13B** language mode
 - Transformers library
 - Hugging Face account and API token
 - Sufficient GPU memory (~24–32 GB VRAM recommended for 13B model)
-- Tested on 2x Radeon RX 9070 (16GB) and INSTINCT MI210 (64GB)
+- Tested on 1x Radeon AI PRO R9700, 2x Radeon RX 9070 (16GB) and INSTINCT MI210 (64GB)
 
 ## Usage
 
