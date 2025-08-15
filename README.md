@@ -38,3 +38,10 @@ python3 jais_13b_inference_test.py \
   --prompt "Give me three bullet points on AMD ROCm for AI." \
   --hf_token YOUR_HF_TOKEN
 ```
+=== Generated Text ===
+
+Give me three bullet points on AMD ROCm for AI.
+
+1.  ROCm is a multi-core architecture designed for AI workloads.
+2.  ROCm includes a runtime that supports dynamic parallelism and fine-grained task scheduling.
+3.  ROCm includes a compiler that supports auto-tuning and auto-vectorization.
