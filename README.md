@@ -22,7 +22,7 @@ This Python script provides a simple interface to run **JAIS 13B** language mode
 
 ## Usage
 
-Run the script with an Arabic prompt:
+Run the script with an Arabic prompt:⚡ make sure to use your HuggingFace token ⚡
 
 ```bash
 python3 jais_13b_inference_test.py \
