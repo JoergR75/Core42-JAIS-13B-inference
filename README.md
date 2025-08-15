@@ -1,4 +1,4 @@
-# Jais 13B Inference on AMD ROCm
+# 🚀 Jais 13B Inference on AMD ROCm
 
 This Python script provides a simple interface to run **JAIS 13B** language model inference on AMD GPUs using **ROCm** and Hugging Face Transformers. It allows generating text from custom prompts with configurable sampling parameters.
 
