@@ -22,19 +22,19 @@ This Python script provides a simple interface to run **JAIS 13B** language mode
 
 ## Usage
 
-Run the script with a prompt:
+Run the script with an Arabic prompt:
 
 ```bash
 python3 jais_13b_inference_test.py \
   --model core42/jais-13b-chat \
   --prompt "اكتب فقرة قصيرة عن أهمية البيانات في الرعاية الصحية." \
   --hf_token YOUR_HF_TOKEN
-
-
-or
+```
+or with an English prompt
 
 ```bash
 python3 jais_13b_inference_test.py \
   --model core42/jais-13b-chat \
   --prompt "Give me three bullet points on AMD ROCm for AI." \
   --hf_token YOUR_HF_TOKEN
+```
