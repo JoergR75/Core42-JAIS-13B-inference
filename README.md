@@ -12,8 +12,8 @@ This Python script provides a simple interface to run **JAIS 13B** language mode
 
 ## Requirements
 
-- ROCm 6.4.2+
-- Python 3.10+
+- ROCm 6.4.2+ (Link to the automated script: https://github.com/JoergR75/ROCm-6.4.2-deployment-on-RDNA4)
+- Python 3.12+
 - PyTorch 2.9.0 with ROCm support (2.9.0.dev20250729+rocm6.4)
 - Transformers library
 - Hugging Face account and API token
