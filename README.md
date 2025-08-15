@@ -27,3 +27,11 @@ python3 jais_13b_inference_test.py \
   --model core42/jais-13b-chat \
   --prompt "اكتب فقرة قصيرة عن أهمية البيانات في الرعاية الصحية." \
   --hf_token YOUR_HF_TOKEN
+
+or
+
+```bash
+python3 jais_13b_inference_test.py \
+  --model core42/jais-13b-chat \
+  --prompt "Give me three bullet points on AMD ROCm for AI." \
+  --hf_token YOUR_HF_TOKEN
