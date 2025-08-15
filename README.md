@@ -12,11 +12,13 @@ This Python script provides a simple interface to run **JAIS 13B** language mode
 
 ## Requirements
 
+- ROCm 6.4.2+
 - Python 3.10+
-- PyTorch with ROCm support
+- PyTorch 2.9.0 with ROCm support ()
 - Transformers library
 - Hugging Face account and API token
 - Sufficient GPU memory (~24–32 GB VRAM recommended for 13B model)
+- Tested on 2x Radeon RX 9070 (16GB) and INSTINCT MI210 (64GB)
 
 ## Usage
 
@@ -27,6 +29,7 @@ python3 jais_13b_inference_test.py \
   --model core42/jais-13b-chat \
   --prompt "اكتب فقرة قصيرة عن أهمية البيانات في الرعاية الصحية." \
   --hf_token YOUR_HF_TOKEN
+
 
 or
 
